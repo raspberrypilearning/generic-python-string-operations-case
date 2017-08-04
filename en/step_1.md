@@ -1,19 +1,36 @@
-## Introduction
+- There are four basic string operations that you can use in Python to change the cast of a string.
 
-Add project description here. What will learners be making?
+### Change to lowercase
 
-### What you will make
+- You can change any string to lowercase using the `.lower()` method. Like many string operations, it's very greedy, and will change every character.
 
-Add something here to showcase here, for example:
+	```python
+	s = 'This is a string with UPPERCASE characters'
+	print(s.lower())
+	```
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+### Swap the case
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+- You can stitch lower to uppercase and upper to lowercase, using the `.swapcase()` method.
 
-### What you will learn
+	```python
+	s = 'uppercase aNd LOWERCASE'
+	print(s.swapcase())
+	```
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+### Title case
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+- You can change the first character of every word to an uppercase letter using the `.title()` method.
+
+	```python
+	s = 'the title of my story'
+	print(s.title())
+	```
+### Change to uppercase
+
+- Lastly the `.upper()` method will greedily change all characters to uppercase.
+
+	```python
+	s = 'all lower'
+	print(s.upper())
+	```
