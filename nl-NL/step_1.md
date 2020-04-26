@@ -1,37 +1,37 @@
-There are four basic string operations that you can use in Python to change the case of a string.
+Er zijn vier basistekstbewerkingen die je in Python kunt gebruiken om het hoofd- en kleinelettergebruik van een tekenreeks te wijzigen.
 
-### Change to lower case
+### Wissel naar kleine letters
 
-- You can change any string to lower case using the `.lower()` method. Like many string operations, it's very greedy, and will change every character.
+- Je kunt elke string in kleine letters wijzigen met de methode `.lower()`. Net als veel stringbewerkingen is het erg hebzuchtig en zal elk karakter veranderen.
 
     ```python
-    s = 'This is a string with UPPER-CASE characters'
-    print(s.lower())
+    s = 'Dit is een string met HOOFDLETTERS'
+print(s.lower())
     ```
 
-### Change to upper case
+### Wissel naar hoofdletters
 
-- Similarly, the `.upper()` method will greedily change all characters to upper case.
+- Op dezelfde manier verandert de methode `.upper()` gretig alle letters in alle hoofdletters.
 
     ```python
-    s = 'all lower'
-    print(s.upper())
+    s = 'alles klein'
+print(s.upper())
     ```
 
-### Swap the case
+### Verwissel hoofd- en kleine letters
 
-- You can stitch lower to upper case, or upper to lower case, with the `.swapcase()` method.
+- Je kunt kleine letters in hoofdletters of kleine letters in hoofdletters veranderen met de methode `.swapcase()`.
 
     ```python
-    s = 'upper case aNd LOWER CASE'
-    print(s.swapcase())
+    s = 'hoofdletters eN kleine letters'
+print(s.swapcase())
     ```
 
-### Title case
+### Titeltekst
 
-- Lastly, you can change the first character of every word to an upper-case letter using the `.title()` method.
+- Ten slotte kun je het eerste teken van elk woord wijzigen in een hoofdletter met behulp van de methode `.title()`.
 
     ```python
-    s = 'the title of my story'
-    print(s.title())
+    s = 'de titel van mijn verhaal'
+print(s.title())
     ```
